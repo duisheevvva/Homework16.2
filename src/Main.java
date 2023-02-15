@@ -4,7 +4,7 @@ public class Main {
                              new CSharp(),
                              new Python()};
         for (Backend backend:backends) {
-            System.out.println(backend);
+            System.out.println(backend.toString());
             System.out.println(backend.getClass());
             boolean s= backend instanceof Backend;
             System.out.println(s);
